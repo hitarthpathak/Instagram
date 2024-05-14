@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-body {
+    height: 37rem;
+    width: 47rem;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.body-1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#phone {
+    height: 100%;
+    width: auto;
+}
+
+.body-2 {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.login {
+    border: 1px solid rgb(211, 211, 211);
+    height: 65%;
+    width: 100%;
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    background-color: white;
+}
+
+.instagram-box {
+    height: 3.5rem;
+    width: auto;
+    margin-top: 2rem;
+}
+
+#instagram-logo {
+    height: 100%;
+    width: auto;
+}
+
+.textfield {
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-top: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+}
+
+#username {
+    border: 1px solid rgb(211, 211, 211);
+    height: 50%;
+    width: 75%;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+#password {
+    border: 1px solid rgb(211, 211, 211);
+    height: 50%;
+    width: 75%;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+#login-btn {
+    border: none;
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 2rem;
+    width: 75%;
+    font-weight: bold;
+    background-color: rgb(77, 167, 252);
+    color: white;
+}
+
+.or {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.facebook-box {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+}
+
+#facebook-logo {
+    height: 1rem;
+    width: 1rem;
+}
+
+.facebook-box a {
+    font-weight: bold;
+    color: rgb(74, 74, 150);
+    text-decoration: none;
+}
+
+.forget-password {
+    height: auto;
+    width: auto;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.forget-password a {
+    color: rgb(14, 14, 95);
+    text-decoration: none;
+}
+
+.sign-up-box {
+    border: 1px solid rgb(211, 211, 211);
+    height: auto;
+    width: auto;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-box a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(0, 110, 255);
+    text-decoration: none;
+}
+
+.get-the-app {
+    height: auto;
+    width: auto;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 1.3rem;
+}
+
+.get-the-app-images {
+    height: auto;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.google-play {
+    height: 3rem;
+    width: auto;
+}
+
+#google-play {
+    height: 100%;
+    width: 100%;
+}
+
+.microsoft {
+    height: 3rem;
+    width: auto;
+}
+
+#microsoft {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    height: auto;
+    width: auto;
+    margin-top: 4rem;
+}
+
+.footer-1 {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.footer-1 a {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.footer-2 {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: gray;
+    font-size: 0.8rem;
+    padding-bottom: 3rem;
+}
